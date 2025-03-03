@@ -14,7 +14,7 @@ The repo accompanies [our paper](https://arxiv.org/abs/2410.00645) accepted to I
 
 
 
-# Instructions
+## Instructions
 
 The implementation is based on [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT). Their repo has instructions to run the code. In addition to that, the user needs to specify the dataset path in **utils/data.py**.
 
@@ -28,4 +28,5 @@ The hyperparameters used in the experiments are in the folder **exps/**.
 
 
 
-
+## Contact
+If you have any comments, questions about the repo, paper, and continual learning in general, feel free to send an email to me.
