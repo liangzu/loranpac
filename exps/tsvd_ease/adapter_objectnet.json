@@ -1,0 +1,46 @@
+{
+    "prefix": "reproduce",
+    "dataset": "objectnet",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "tsvd_adapter_ease",
+    "backbone_type": "pretrained_vit_b16_224_adapter",
+    "device": ["0"],
+    "seed": [1993],
+    "use_simplecil": false,
+
+
+
+    "tuned_epoch":20,
+    "init_lr":0.03,
+    "batch_size":48,
+    "weight_decay":0.005,
+    "min_lr":0,
+    "ffn_num":64,
+    "optimizer":"sgd",
+    "vpt_type":"shallow",
+    "prompt_token_num":5,
+
+    "coslinear": false,
+
+    "rank": 20000,
+
+    "truncate_percent": 25,
+
+    "ridge": 0,
+
+    "tsvd_batch_size": 100,
+
+    "use_RE": true,
+    "use_relu": true,
+    "E": 100000,
+
+    "save_spectrum": false,
+    "save_training_err": false
+}
+
+

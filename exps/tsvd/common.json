@@ -1,0 +1,27 @@
+{
+    "coslinear": false,
+
+    "rank": 10000,
+
+    "truncate_percent": 25,
+
+    "ridge": 0,
+
+    "tsvd_batch_size": 100,
+
+    "use_RE": true,
+    "use_relu": true,
+    "E": 100000,
+
+    "save_spectrum": false,
+    "save_training_err": false,
+
+    "RE_scale": 1,
+    "RE_distribution": "gaussian",
+
+    "train_RE": false,
+    "E_inc": 1000,
+    "train_last_layer": false
+}
+
+
