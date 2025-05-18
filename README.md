@@ -2,7 +2,7 @@
 The repo accompanies [our paper](https://arxiv.org/abs/2410.00645) accepted to ICLR 2025. The bib entry is:
 
     @inproceedings{
-        Peng-ICLR2025TSVD,
+        Peng-ICLR2025,
         title={{LoRanPAC}: Low-rank Random Features and Pre-trained Models for Bridging Theory and Practice in Continual Learning},
         author={Liangzu Peng and Juan Elenter and Joshua Agterberg and Alejandro Ribeiro and Rene Vidal},
         booktitle={The Thirteenth International Conference on Learning Representations},
