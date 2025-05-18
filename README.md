@@ -3,7 +3,7 @@ The repo accompanies [our paper](https://arxiv.org/abs/2410.00645) accepted to I
 
     @inproceedings{
         Peng-ICLR2025TSVD,
-        title={{TSVD}: Bridging Theory and Practice in Continual Learning with Pre-trained Models},
+        title={{LoRanPAC}: Low-rank Random Features and Pre-trained Models for Bridging Theory and Practice in Continual Learning},
         author={Liangzu Peng and Juan Elenter and Joshua Agterberg and Alejandro Ribeiro and Rene Vidal},
         booktitle={The Thirteenth International Conference on Learning Representations},
         year={2025},
@@ -21,11 +21,12 @@ The implementation is based on [LAMDA-PILOT](https://github.com/sun-hailong/LAMD
 
 Our method is implemented in **models/tsvd.py** and **models/tsvd_adapter.py**.
 
-- **models/tsvd.py** implements the TSVD method as described in the paper;
-- **models/tsvd_adapter.py** implements the TSVD method with first-session adaptation.
+- **models/tsvd.py** implements the LoRanPAC method as described in the paper;
+- **models/tsvd_adapter.py** implements the LoRanPAC method with first-session adaptation.
 
 The hyperparameters used in the experiments are in the folder **exps/**.
 
+Note that the method name was originally TSVD, and is now changed to LoRanPAC (May 17, 2025).
 
 
 ## Contact
