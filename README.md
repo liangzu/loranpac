@@ -1,4 +1,4 @@
-# TSVD (ICLR 2025)
+# LoRanPAC (ICLR 2025)
 The repo accompanies [our paper](https://arxiv.org/abs/2410.00645) accepted to ICLR 2025. The bib entry is:
 
     @inproceedings{
