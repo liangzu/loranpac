@@ -18,7 +18,6 @@ The repo accompanies [our paper](https://arxiv.org/abs/2410.00645) accepted to I
 
 The implementation is based on [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT). Their repo has instructions to run the code. In addition to that, the user needs to specify the dataset path in **utils/data.py**.
 
-
 Our method is implemented in **models/tsvd.py** and **models/tsvd_adapter.py**.
 
 - **models/tsvd.py** implements the LoRanPAC method as described in the paper;
